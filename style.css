@@ -24,10 +24,6 @@ p{
     grid-gap: 10px;
 }
 
-a:hover{
-    border: 3px gray solid;
-}
-
 .members{
     color: gray;
     text-decoration: none;
