@@ -16,3 +16,27 @@ h3{
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+div{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: gray;
+    transform: translate(-50%, 50%);
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
