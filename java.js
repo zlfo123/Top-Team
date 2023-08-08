@@ -33,7 +33,7 @@ btn2.onclick = function () {
                 clearInterval(this);
                 let img = document.createElement('img')
                 setTimeout(
-                    location.assign('g.htm'),500
+                    location.assign('https://zlfo123.github.io/Top-Team/g.htm'),500
                 )
             }
         },1000
