@@ -22,27 +22,24 @@ btn.onclick = function () {
        );
     
 } 
-
+let image = document.getElementById('image');
  
-btn2.onclick = function () {
-    setInterval(
-        function(){
-            head2.innerHTML = 'please wait'
-            head.innerHTML = i--;
-            while(i < -1){
-                clearInterval(this);
-                
-                setTimeout(
-                    let imga = document.createElement('img')
-                    imga.src = 'g.jpg',500
-                )
-            }
-        },1000
-       );
+btn2.onclick = 
+   function(){ 
     
-} 
+    image.src = 'g.jpg';
+    image.style.width = '400px'
+    image.style.height = '400px'
 
 
+   }
+   
+
+
+
+   
+
+   
    
 
    
