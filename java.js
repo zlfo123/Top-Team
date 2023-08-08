@@ -33,7 +33,7 @@ btn2.onclick = function () {
                 clearInterval(this);
                 let img = document.createElement('img')
                 setTimeout(
-                    location.assign(''),500
+                    location.assign('g.htm'),500
                 )
             }
         },1000
