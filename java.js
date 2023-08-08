@@ -31,9 +31,10 @@ btn2.onclick = function () {
             head.innerHTML = i--;
             while(i < -1){
                 clearInterval(this);
-                let img = document.createElement('img')
+                
                 setTimeout(
-                    location.assign('https://zlfo123.github.io/Top-Team/g.htm'),500
+                    let imga = document.createElement('img')
+                    imga.src = 'g.jpg',500
                 )
             }
         },1000
