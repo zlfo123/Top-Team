@@ -1,43 +1,19 @@
-let head = document.getElementById('head');
-let head2 = document.getElementById('head2');
-let btn = document.getElementById('btn');
-let btn2 = document.getElementById('btn2');
+let imgdiv = document.getElementById('imgdiv');
+let qrimg = document.getElementById('qrimg');
+let qrtext = document.getElementById('qrtext')
 
-
-
-let i = 5;
-
-btn.onclick = function () {
-    setInterval(
-        function(){
-            head2.innerHTML = 'please wait'
-            head.innerHTML = i--;
-            while(i < -1){
-                clearInterval(this);
-                setTimeout(
-                    location.assign('https://www.youtube.com/watch?v=I0j9-5IVSC4'),500
-                )
-            }
-        },1000
-       );
-    
-} 
-let image = document.getElementById('image');
- 
-btn2.onclick = 
-   function(){ 
-    
-    image.src = 'g.jpg';
-    image.style.width = '400px'
-    image.style.height = '400px'
-
-
-   }
+function Gen(){
+    if(qrtext.value.length > 0){
+         qrimg.src = 'https://quickchart.io/qr?text=' + qrtext.value;
+    imgdiv.classList.add('show-img');
+    }else{
+        qrtext.classList.add('error');
+        setTimeout(()=>{
+            qrtext.classList.add('error');
+        },1000);
+    }
    
-
-
-
-   
+}
 
    
    
